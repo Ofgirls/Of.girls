@@ -1,0 +1,36 @@
+.navbar-ofgirls {
+  /* border-bottom-width: 2px; */
+  border-radius : 0px;
+  /* height: 40px; */
+}
+
+.navbar-ofgirls .navbar-brand {
+  background-image: url('./srcs/logo.png');
+  background-size: cover;
+  width: 170px;
+  height: 99px;
+  margin-left: 0px !important;
+}
+
+.navbar-ofgirls .navbar-nav li > a {
+  font-size: 17px;
+}
+.navbar-ofgirls .navbar-nav li > a:hover,
+.navbar-ofgirls .navbar-nav li > a:focus {
+  color: #A561CE;
+  border-bottom: 2px solid #A561CE;
+}
+
+.navbar-ofgirls .navbar-header .navbar-toggle {
+  margin-top: 32px;
+  margin-bottom: 33px;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar-ofgirls .navbar-brand,
+  .navbar-ofgirls .navbar-nav li > a {
+    height: 99px;
+    line-height: 70px;
+
+  }
+}
