@@ -29,7 +29,9 @@
   margin-top: 32px;
   margin-bottom: 33px;
 }
-
+.form-group {
+  margin: 50px 0 !important;
+}
 @media screen and (min-width: 768px) {
   .navbar-ofgirls .navbar-brand,
   .navbar-ofgirls .navbar-nav li > a {
@@ -40,11 +42,8 @@
   .container {
     width : 900px;
   }
-  .form {
-     margin: 0 auto;
-     width: 50%;
-  }
 }
+
 
 input[type=text] {
     width: 100%;
