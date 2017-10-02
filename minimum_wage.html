@@ -10,64 +10,65 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
-  <nav class="navbar navbar-default navbar-ofgirls">
-    <div class="container">
-      <div class="navbar-header">
-        <!-- mobile, tablet menu button -->
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+<nav class="navbar navbar-default navbar-ofgirls">
+  <div class="container">
+    <div class="navbar-header">
+      <!-- mobile, tablet menu button -->
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
-        </button>
+      </button>
 
-        <a class="navbar-brand" href="./index.html"></a> <!-- logo image -->
-      </div>
-
-      <div class="collapse navbar-collapse" id="navbar-collapse">
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="#">소개페이지</a></li>
-          <li><a href="#">신고하기</a></li>
-          <li><a href="#">대나무숲</a></li>
-        </ul>
-      </div>
+      <a class="navbar-brand" href="./index.html">Of.girls</a> <!-- logo image -->
     </div>
-  </nav>
 
-  <div class="container">
-    <div class="form">
-      <h1>최저임금 미준수</h1>
-
-      <div class="col-xs-12">
-        <label for="name">(1) 이름 </label>
-        <input class="form-control" id="name" type="text" placeholder="Name">
-
-        <label for="service_period">(2) 근무지(지역 + 상호명) ex.신촌명물거리 알촌 </label>
-        <input class="form-control" id="place" type="text" placeholder="Place">
-
-        <!-- (3) 근무 기간 -->
-
-        <label for="service_period">(4) 전체 시간 </label>
-        <input class="form-control" id="total_time" type="text" placeholder="Time">
-
-        <label for="service_period">(5) 받은 액수 </label>
-        <input class="form-control" id="take" type="text" placeholder="Money">
-      </div>
+    <div class="collapse navbar-collapse" id="navbar-collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">소개페이지</a></li>
+        <li><a href="./minimum_wage.html">신고하기</a></li>
+        <li><a href="#">대나무숲</a></li>
+      </ul>
     </div>
-  <!--
-  <div class="col-xs-2">
-  <label for="service_period">(1) 근무 일자 </label>
-  <input class="form-control" id="service_period" type="text">
+  </div>
+</nav>
+
+<div class="container">
+  <div class="form">
+    <h1>최저임금 미준수</h1>
+
+    <div class="col-xs-12">
+      <label for="name">(1) 이름 </label>
+      <input class="form-control" id="name" type="text" placeholder="Name">
+
+      <label for="service_period">(2) 근무지(지역 + 상호명) ex.신촌명물거리 알촌 </label>
+      <input class="form-control" id="place" type="text" placeholder="Place">
+
+      <!-- (3) 근무 기간 -->
+
+      <label for="service_period">(4) 전체 시간 </label>
+      <input class="form-control" id="total_time" type="text" placeholder="Time">
+
+      <label for="service_period">(5) 받은 액수 </label>
+      <input class="form-control" id="take" type="text" placeholder="Money">
+    </div>
+  </div>
+<!--
+<div class="col-xs-2">
+<label for="service_period">(1) 근무 일자 </label>
+<input class="form-control" id="service_period" type="text">
+</div>
+
+
+(2) 근무 여부 (3) 근무 시간 및 원래 받아야할 금액 (4) 자신이 받은 금액
+
+제 이름은 (이름)입니다.
+저는 ( 일한 곳 상호명 : 주소 ) 에서 ( 20  .  .  ~ 20  .  .  .)까지 일을 했습니다.
+총 ( n ) 시간을 일했으며 최저 임금 6.030원이므로 ( n*6,030 )원을 받야아 합니다.
+그런데 제가 받은 액수는 총 ( x )원입니다.
+따라서 ( x - n*6030 )원을 ( 일한 곳 상호명 )으로부터 받을 수 있도록 선처해주세요. -->
   </div>
 
-
-  (2) 근무 여부 (3) 근무 시간 및 원래 받아야할 금액 (4) 자신이 받은 금액
-
-  제 이름은 (이름)입니다.
-  저는 ( 일한 곳 상호명 : 주소 ) 에서 ( 20  .  .  ~ 20  .  .  .)까지 일을 했습니다.
-  총 ( n ) 시간을 일했으며 최저 임금 6.030원이므로 ( n*6,030 )원을 받야아 합니다.
-  그런데 제가 받은 액수는 총 ( x )원입니다.
-  따라서 ( x - n*6030 )원을 ( 일한 곳 상호명 )으로부터 받을 수 있도록 선처해주세요. -->
-    </div>
-  </body>
+</body>
 </html>
